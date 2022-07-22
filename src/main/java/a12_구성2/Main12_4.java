@@ -1,27 +1,23 @@
-package a11_클래스와객체8;
+package a12_구성2;
 
 // 문제 : 아래가 실행되도록 해주세요.
+// 조건 : 매개변수를 사용하지 말아주세요.
 
-public class Main11_3 {
+public class Main12_4 {
     public static void main(String[] args) {
         전사 a전사 = new 전사();
-
         String 이름 = "칸";
         a전사.이름 = 이름;
         a전사.나이 = 20;
         a전사.자기소개();
-
         a전사.나이++;
         a전사.자기소개();
-
         a전사.나이 = 30;
         a전사.이름 = "카니";
         a전사.자기소개();
-
         a전사.a무기 = new 활();
         a전사.공격();
         // 출력 : 카니가 활로 공격합니다.
-
         a전사.a무기 = new 칼();
         a전사.공격();
         // 출력 : 카니가 칼로 공격합니다.
@@ -40,24 +36,27 @@ public class Main11_3 {
         }
 
         void 공격() {
-            this.a무기.사용(this.이름);
+            a무기.사용자명 = 이름;
+            a무기.작동();
         }
     }
 
     static class 무기 {
-        void 사용(String 사용자_이름) {
+        String 사용자명;
+
+        void 작동() {
         }
     }
 
     static class 칼 extends 무기 {
-        void 사용(String 사용자_이름) {
-            System.out.println(사용자_이름 + "가 칼로 공격합니다.");
+        void 작동() {
+            System.out.println(사용자명 + "가 칼로 공격합니다.");
         }
     }
 
     static class 활 extends 무기 {
-        void 사용(String 사용자_이름) {
-            System.out.println(사용자_이름 + "가 활로 공격합니다.");
+        void 작동() {
+            System.out.println(사용자명 + "가 활로 공격합니다.");
         }
     }
 }

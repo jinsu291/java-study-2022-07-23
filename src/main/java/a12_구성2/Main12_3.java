@@ -1,4 +1,4 @@
-package a12_클래스와객체9;
+package a12_구성2;
 
 public class Main12_3 {
     public static void main(String[] args) {
