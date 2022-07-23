@@ -1,5 +1,7 @@
 package a12_구성2;
 
+// 힌트 : if ( a무기 == null ) { ... }
+
 public class Main12_5 {
     public static void main(String[] args) {
         int i = 로봇.get정수();
