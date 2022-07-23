@@ -19,8 +19,8 @@ public class Main2_2 {
         if(age <= 19){
             System.out.println("할인 대상입니다.");
         }
-        if(age >=  20){
-            System.out.println("할인 대상이 아닙니다.");
+        if ( age >= 60 ) {
+            System.out.println("할인 대상입니다.");
         }
         if ( age >= 20 ) {
             if ( age < 60 ) {
