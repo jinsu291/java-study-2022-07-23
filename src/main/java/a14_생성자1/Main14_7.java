@@ -38,5 +38,5 @@ static class 손 {
 
 static class 손가락 {
     int 길이;
-}
+    }
 }
