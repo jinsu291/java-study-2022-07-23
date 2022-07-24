@@ -6,6 +6,7 @@ public class Main6_4 {
         /// 메인 함수
         public static void main (String[]args){
             사람 a사람 = new 사람();
+            a사람.말하다();
         }
 
         static class 사람 {

@@ -49,4 +49,4 @@ public class Main6_8 {
             System.out.println("닭이 웁니다.");
         }
     }
-    }
+}

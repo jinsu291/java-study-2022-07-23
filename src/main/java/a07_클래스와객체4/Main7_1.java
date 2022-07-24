@@ -13,5 +13,5 @@ public class Main7_1 {
         static void 달리다() {
             System.out.println("자동차가 달립니다.");
         }
-}
+    }
 }
