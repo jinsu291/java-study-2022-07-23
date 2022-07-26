@@ -1,4 +1,4 @@
-package a18_생성자2;
+package a12_구성2.a18_생성자2;
 
 // 문제 : 아래와 같이 출력 되도록 해보세요.[정답]
 public class Main18_6 {
